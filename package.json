@@ -8,6 +8,9 @@
   },
   "author": "Ekene",
   "license": "ISC",
+  "engines": {
+    "node": "18.13.0"
+  },
   "repository": {
     "type": "git",
     "url": "y"
