@@ -14,6 +14,7 @@
     <a class="btn btn-lg btn-warning mt-3" type="button" href="/logout">LogOut</a>
   </form>
   <section class="details mt-5">  
+  <!-- collect the details from the backend and loop through to render each one -->
     <% detailsArray.forEach(element => { %>
           <form action="/delete" method="post">
             <div class="details-container  my-3">
