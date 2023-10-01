@@ -1,0 +1,16 @@
+<%- include("./partial/header");%>
+<section class="signin">
+  <div class="container mt-5">
+    <!-- make a POST request to /register -->
+    <form action="/register" method="post">
+      <h1 class="mb-4">Create an acccount</h1>
+      <div class="form mb-4">
+          <input type="email" class="form-control-lg" id="floatingInput" placeholder="name@example.com" name="username" required>
+        </div>
+        <div class="form">
+          <input type="password" class="form-control-lg" id="floatingPassword" placeholder="Password" name="password" required>
+      </div>
+      <button type="submit" class="btn btn-block btn-lg btn-warning mt-3">Create Account</button>
+    </form>  
+ </div>
+</section> 
