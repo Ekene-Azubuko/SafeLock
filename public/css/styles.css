@@ -14,9 +14,8 @@ body {
     max-height: 100%;
     color: hsl(198, 1%, 29%);
     font-family: "Architects Daughter", sans-serif ;
-    font-size: 130%;
+    font-size: 110%;
     overflow-x: hidden;
-    overflow-y: hidden;
     padding: 1rem;
   }
   .signin{
