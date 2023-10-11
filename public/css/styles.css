@@ -94,6 +94,9 @@ body {
   .grid-item-1{
     grid-row: span 2;
   }
+  .login-body{
+    overflow-y: hidden;
+  }
 
   /* special modifications for phones, tablets and laptops */
 @media only screen and (min-width:321px) and (max-width:768px) {
