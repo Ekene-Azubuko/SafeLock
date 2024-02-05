@@ -116,6 +116,10 @@ body {
   body {
     overflow-y: visible;
   }
+  .login-body{
+    overflow-y: visible;
+  }
+
 }
 @media only screen and (max-width:320px) {
   .grid-container{
@@ -128,6 +132,10 @@ body {
   body {
     overflow-y: visible;
   }
+  .login-body{
+    overflow-y: visible;
+  }
+
 }
 @media only screen and (min-width:992px){
   .grid-item-1{
